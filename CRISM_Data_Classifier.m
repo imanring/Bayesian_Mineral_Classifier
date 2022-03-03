@@ -1,4 +1,4 @@
-load('C:\Users\isaac\Documents\Quiz and Homework\CSCI\Machine Learning\CRISM_labeled_pixels_ratioed.mat');
+load('CRISM_labeled_pixels_ratioed.mat');
 c = size(unique(pixlabs),1);
 %fix labels
 pixlabs(pixlabs==39) = 22;
