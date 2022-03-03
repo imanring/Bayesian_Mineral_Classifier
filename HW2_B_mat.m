@@ -33,7 +33,7 @@ mu_0 = mean(x_);
 m = d^3;
 sigma_0_temp = reshape(mean(S),[d,d]);
 sigma_0 = sigma_0_temp*(m-d-1);
-k = 10;
+k = 30;
 
 %predict
 likelihood = zeros(c,size(test_spec,1));
